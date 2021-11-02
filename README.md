@@ -3,15 +3,15 @@ This repo contains Prometheus integration with asp dotnet sample application.
 
 src.zip file contains a sample asp.net core application
 
-To download prometheus to on-prem environment, use the link below:
+To download **prometheus** to on-prem environment, use the link below:
 
 https://prometheus.io/download/
 
-Sample prometheus dashboar:
+Sample prometheus dashboard:
 
 https://grafana.com/grafana/dashboards/159
 
-To download grafana to on-prem on-prem environment, use the link below:
+To download **grafana** to on-prem on-prem environment, use the link below:
 
 https://grafana.com/grafana/download
 
@@ -19,11 +19,11 @@ To run prometheus locally:
 
 http://localhost:9090/
 
-To run grafan locally:
+To run grafana locally:
 
 http://localhost:3000/
 
-Configure prometheus to collect data from a given target, edit prometheus.yml file such as below:
+Configure prometheus to collect data from a given target, edit **prometheus.yml** file such as below:
 
 ```powershell
 ...
