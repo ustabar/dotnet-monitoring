@@ -25,6 +25,7 @@ http://localhost:3000/
 
 Configure prometheus to collect data from a given target, edit prometheus.yml file such as below:
 
+```powershell
 ...
 # A scrape configuration containing exactly one endpoint to scrape:
 # Here it's Prometheus itself.
@@ -39,3 +40,4 @@ scrape_configs:
   
     metrics_path: /metrics
 ...
+```
