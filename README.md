@@ -41,3 +41,10 @@ scrape_configs:
     metrics_path: /metrics
 ...
 ```
+
+# install Calico on Kubernetes
+
+```
+$ curl https://docs.projectcalico.org/manifests/calico.yaml -O
+$ kubectl apply -f calico.yaml
+```
