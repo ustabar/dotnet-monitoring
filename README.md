@@ -48,3 +48,5 @@ scrape_configs:
 $ curl https://docs.projectcalico.org/manifests/calico.yaml -O
 $ kubectl apply -f calico.yaml
 ```
+
+[Calico Installation](https://docs.projectcalico.org/getting-started/kubernetes/self-managed-onprem/onpremises)
